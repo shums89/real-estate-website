@@ -115,6 +115,10 @@ a.card-link:hover {
 }
 
 .btn-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 100%;
   height: 80px;
 
@@ -134,9 +138,9 @@ a.card-link:hover {
   background-color: #d8d8d8;
 }
 .btn-more img {
-  display: inline-block;
+  /* display: inline-block; */
   margin-right: 10px;
-  vertical-align: bottom;
+  /* vertical-align: bottom; */
 }
 
 .widget + .widget {
@@ -387,6 +391,9 @@ a.card-link:hover {
 }
 
 .form-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 50px;
   border: 1px solid #d6d6d6;
@@ -403,10 +410,10 @@ a.card-link:hover {
   transition: background-color 0.2s ease-in;
 }
 .form-btn img {
-  display: inline-block;
+  /* display: inline-block; */
   margin-right: 6px;
-  vertical-align: middle;
-  margin-top: -2px;
+  /* vertical-align: middle; */
+  /* margin-top: -2px; */
 }
 .form-btn:hover {
   background-color: #e7e7e7;
