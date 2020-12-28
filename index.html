@@ -12,7 +12,7 @@
 
 <body>
 
-  <div class="toggle-sidebar">    
+  <div class="toggle-sidebar">
     <button class="menu-icon-wrapper">
       <div class="menu-icon"></div>
     </button>
@@ -192,6 +192,69 @@
           </div>
         </a>
         <!-- // Card -->
+
+        <!-- Hidden cards -->
+
+        <!-- Card -->
+        <a class="card-link card-link--hidden" href="#">
+          <div class="card">
+            <div class="card__badges">
+              <div class="card__badge card__badge--class">Комфорт</div>
+              <div class="card__badge card__badge--credit">Рассрочка 12 мес.</div>
+            </div>
+            <div class="card__img">
+              <img src="./img/img.jpg" alt="ЖК Ильинские луга">
+            </div>
+            <div class="card__content">
+              <h4 class="card__title">ЖК Ильинские луга</h4>
+              <div class="card__term">Срок сдачи до 4 кв. 2022 г.</div>
+              <div class="card__metro">Октябрьская</div>
+              <div class="card__address">пр. Льва Толстого 180А</div>
+            </div>
+          </div>
+        </a>
+        <!-- // Card -->
+        <!-- Card -->
+        <a class="card-link card-link--hidden" href="#">
+          <div class="card">
+            <div class="card__badges">
+              <div class="card__badge card__badge--class">Комфорт</div>
+              <div class="card__badge card__badge--credit">Рассрочка 12 мес.</div>
+            </div>
+            <div class="card__img">
+              <img src="./img/img.jpg" alt="ЖК Ильинские луга">
+            </div>
+            <div class="card__content">
+              <h4 class="card__title">ЖК Ильинские луга</h4>
+              <div class="card__term">Срок сдачи до 4 кв. 2022 г.</div>
+              <div class="card__metro">Октябрьская</div>
+              <div class="card__address">пр. Льва Толстого 180А</div>
+            </div>
+          </div>
+        </a>
+        <!-- // Card -->
+        <!-- Card -->
+        <a class="card-link card-link--hidden" href="#">
+          <div class="card">
+            <div class="card__badges">
+              <div class="card__badge card__badge--class">Комфорт</div>
+              <div class="card__badge card__badge--credit">Рассрочка 12 мес.</div>
+            </div>
+            <div class="card__img">
+              <img src="./img/img.jpg" alt="ЖК Ильинские луга">
+            </div>
+            <div class="card__content">
+              <h4 class="card__title">ЖК Ильинские луга</h4>
+              <div class="card__term">Срок сдачи до 4 кв. 2022 г.</div>
+              <div class="card__metro">Октябрьская</div>
+              <div class="card__address">пр. Льва Толстого 180А</div>
+            </div>
+          </div>
+        </a>
+        <!-- // Card -->
+
+        <!-- // Hidden cards -->
+
         <button class="btn-more">
           <img src="./img/icons/plus-circle.svg" alt="Show more icon">
           <span>Показать еще</span>
@@ -208,17 +271,17 @@
               <!-- Location -->
               <div class="location">
                 <div class="location__row">
-                  
-                  <input type="checkbox" id="location-01" checked class="location__checkbox">
+
+                  <input type="checkbox" data-location-param id="location-01" class="location__checkbox">
                   <label class="location__btn" for="location-01">&lt; 10</label>
 
-                  <input type="checkbox" id="location-02" checked class="location__checkbox">
+                  <input type="checkbox" data-location-param id="location-02" class="location__checkbox">
                   <label class="location__btn" for="location-02">10-20</label>
 
-                  <input type="checkbox" id="location-03" class="location__checkbox">
+                  <input type="checkbox" data-location-param id="location-03" class="location__checkbox">
                   <label class="location__btn" for="location-03">20-30</label>
 
-                  <input type="checkbox" id="location-04" class="location__checkbox">
+                  <input type="checkbox" data-location-param id="location-04" class="location__checkbox">
                   <label class="location__btn" for="location-04">30+</label>
                 </div>
                 <div class="location__row">
@@ -238,7 +301,7 @@
             </div>
             <div class="widget__body">
               <label class="radio">
-                <input type="radio" class="radio__real" name="term" checked>
+                <input type="radio" class="radio__real" name="term">
                 <span class="radio__fake"></span>
                 <span class="radio__title">Любой</span>
               </label>
@@ -257,7 +320,7 @@
                 <span class="radio__fake"></span>
                 <span class="radio__title">В следующем годы</span>
               </label>
-              
+
             </div>
           </div>
           <!-- // Widget -->
@@ -269,7 +332,7 @@
             </div>
             <div class="widget__body">
               <label class="checkbox">
-                <input type="checkbox" class="checkbox__real" name="vakue-01" checked>
+                <input type="checkbox" class="checkbox__real" name="vakue-01">
                 <span class="checkbox__fake"></span>
                 <span class="checkbox__title">Двор без машин</span>
               </label>
@@ -293,24 +356,24 @@
                 <span class="checkbox__fake"></span>
                 <span class="checkbox__title">Малоэтажный</span>
               </label>
-              <div class="widget__hidden">
-                <label class="checkbox">
-                  <input type="checkbox" class="checkbox__real" name="vakue-06">
-                  <span class="checkbox__fake"></span>
-                  <span class="checkbox__title">Дополнительный пункт 1</span>
-                </label>
-                <label class="checkbox">
-                  <input type="checkbox" class="checkbox__real" name="vakue-07">
-                  <span class="checkbox__fake"></span>
-                  <span class="checkbox__title">Дополнительный пункт 2</span>
-                </label>
-                <label class="checkbox">
-                  <input type="checkbox" class="checkbox__real" name="vakue-08">
-                  <span class="checkbox__fake"></span>
-                  <span class="checkbox__title">Дополнительный пункт 3</span>
-                </label>
-              </div>
-              <button class="widget__show-hidden">Показать ещё</button>            
+
+              <label class="checkbox checkbox--hidden">
+                <input type="checkbox" class="checkbox__real" name="vakue-06">
+                <span class="checkbox__fake"></span>
+                <span class="checkbox__title">Дополнительный пункт 1</span>
+              </label>
+              <label class="checkbox checkbox--hidden">
+                <input type="checkbox" class="checkbox__real" name="vakue-07">
+                <span class="checkbox__fake"></span>
+                <span class="checkbox__title">Дополнительный пункт 2</span>
+              </label>
+              <label class="checkbox checkbox--hidden">
+                <input type="checkbox" class="checkbox__real" name="vakue-08">
+                <span class="checkbox__fake"></span>
+                <span class="checkbox__title">Дополнительный пункт 3</span>
+              </label>
+
+              <button class="widget__btn-show-hidden" data-options="hidden">Показать ещё</button>
             </div>
           </div>
           <!-- // Widget -->
@@ -318,24 +381,24 @@
           <!-- Widget -->
           <div class="widget">
             <div class="widget__body">
-                <label class="toggle">
-                  <input type="checkbox" class="toggle__real" name="comission" checked>
-                  <span class="toggle__fake"></span>
-                  <span class="toggle__title">Услуги 0%</span>
-                </label>
-              </div>
+              <label class="toggle">
+                <input type="checkbox" class="toggle__real" name="comission">
+                <span class="toggle__fake"></span>
+                <span class="toggle__title">Услуги 0%</span>
+              </label>
+            </div>
           </div>
           <!-- // Widget -->
 
           <!-- Widget -->
           <div class="widget">
             <div class="widget__body">
-                <button class="form-btn form-btn--submit">Применить фильтры</button>
-                <button class="form-btn">
-                  <img src="./img/icons/x.svg" alt="Сбросить фильтры">
-                  <span>Сбросить фильтры</span>
-                </button>
-              </div>
+              <button class="form-btn form-btn--submit">Применить фильтры</button>
+              <button type="reset" class="form-btn">
+                <img src="./img/icons/x.svg" alt="Сбросить фильтры">
+                <span>Сбросить фильтры</span>
+              </button>
+            </div>
           </div>
           <!-- // Widget -->
         </form>
